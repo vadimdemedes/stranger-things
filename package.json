@@ -1,0 +1,34 @@
+{
+	"name": "stranger-things",
+	"version": "0.0.0",
+	"description": "Random words from Stranger Things",
+	"license": "MIT",
+	"repository": "vadimdemedes/stranger-things",
+	"author": {
+		"name": "Vadim Demedes",
+		"email": "vdemedes@gmail.com",
+		"url": "vadimdemedes.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"stranger",
+		"things",
+		"random",
+		"words"
+	],
+	"dependencies": {
+		"unique-random-array": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.2.0",
+		"xo": "^0.24.0"
+	}
+}
